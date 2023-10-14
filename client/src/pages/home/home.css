@@ -1,0 +1,15 @@
+.hero .banner{
+    height: 60vh;
+    width: 100%;
+    background:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4)), url('../../assets/home/bg-01.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero .banner h1{
+    font-size: 4rem;
+    color: #9e3b17;
+    color: #fff;
+}

@@ -1,0 +1,22 @@
+.carousel-item{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 490px;
+    background-color: #fff;
+    white-space: normal;
+   
+}
+.carousel-img{
+    width: 250px;
+    padding: 0px 20px 0px 20px;
+}
+.carousel-details{
+    margin: 40px 0 40px 0;
+    padding: 0 20px 0 20px;
+    color: #555;
+}
+.carousel-details h1{
+    padding: 1rem 0;
+}
+

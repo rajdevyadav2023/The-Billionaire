@@ -1,0 +1,130 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: 0px 2px 8px #aaa;
+    height: 96px;
+    background: #fff;
+position: sticky;
+top: 0;
+}
+
+.logo a{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #9e3b17;
+    text-decoration: none;
+}
+
+.logo a .fc {
+    font-size: 30px;
+    display: inline-block;
+    background-color: #9e3b17;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: .3rem;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar li {
+    list-style: none;
+    margin-left: 1rem;
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: #eee;
+    transition: all .5s ease;
+
+}
+
+#navbar li:hover {
+    background-color: #ddd;
+}
+
+#navbar li a {
+    text-decoration: none;
+    color: #9e3b17;
+    color: #666;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding: .5rem 2rem;
+    font-weight: 500;
+}
+
+#navbar li a.active{
+    background-color: #9e3b17;
+    color: #fff;
+}
+#mobile {
+    display: none;
+}
+
+
+/* responsiveness  */
+@media screen and (max-width:1024px) {
+    #navbar {
+        z-index: 9999;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        background-color: #9e3b17;
+        position: absolute;
+        top: 96px;
+        right: -100%;
+        width: 100%;
+        height: 100vh;
+        padding: 40px 10px 0 10px;
+        transition: all .5s ease;
+    }
+#navbar.active-navbar{
+    right: 0;
+}
+    #navbar li {
+        list-style: none;
+        margin-left: 0;
+        border-radius: 0px;
+        overflow: hidden;
+        background-color: #963512;
+        transition: all .5s ease;
+        width: 100%;
+        margin-top: .5rem;
+        border-radius: 3px;
+    }
+
+    #navbar li:hover {
+        background-color: #963512;
+    }
+
+    #navbar li a {
+        color: #fff;
+    }
+    #navbar li a.active{
+        background-color: #782b0f;
+        color: #fff;
+    }
+    #mobile {
+        display: flex;
+        color: #963512;
+        width: 40px;
+        height: 40px;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        border-radius: 50%;
+        background-color: #ddd;
+        cursor: pointer;
+    }
+}

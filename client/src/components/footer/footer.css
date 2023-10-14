@@ -1,0 +1,44 @@
+.footer {
+    height: 40vh;
+    width: 100%;
+    background-color: #000000e8;
+    color: #555;
+}
+
+.footer-content {
+    width: 30%;
+    padding: 2rem;
+}
+
+.footer-content p {
+    text-align: center;
+    margin-top: .5rem;
+}
+
+.footer-content li {
+    list-style: none;
+    margin-top: .5rem;
+    cursor: pointer;
+}
+
+.footer-content li:hover {
+    color: #777;
+}
+
+.footer-content li i {
+    color: #9e3b17;
+    font-size: 18px;
+    margin-right: .5rem;
+}
+
+/* responsiveness  */
+@media screen and (max-width:1024px) {
+.footer{
+    height: auto;
+    flex-direction: column-reverse;
+}
+.footer-content {
+    width: 100%;
+    padding: 2rem;
+}
+}

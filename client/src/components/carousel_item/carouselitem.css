@@ -5,7 +5,7 @@
     height: 490px;
     background-color: #fff;
     white-space: normal;
-   
+   position: relative;
 }
 .carousel-img{
     width: 250px;

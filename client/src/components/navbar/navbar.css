@@ -6,11 +6,12 @@ nav {
     box-shadow: 0px 2px 8px #aaa;
     height: 96px;
     background: #fff;
-position: sticky;
-top: 0;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
 }
 
-.logo a{
+.logo a {
     font-size: 25px;
     display: flex;
     justify-content: center;
@@ -63,10 +64,11 @@ top: 0;
     font-weight: 500;
 }
 
-#navbar li a.active{
+#navbar li a.active {
     background-color: #9e3b17;
     color: #fff;
 }
+
 #mobile {
     display: none;
 }
@@ -89,9 +91,11 @@ top: 0;
         padding: 40px 10px 0 10px;
         transition: all .5s ease;
     }
-#navbar.active-navbar{
-    right: 0;
-}
+
+    #navbar.active-navbar {
+        right: 0;
+    }
+
     #navbar li {
         list-style: none;
         margin-left: 0;
@@ -111,10 +115,12 @@ top: 0;
     #navbar li a {
         color: #fff;
     }
-    #navbar li a.active{
+
+    #navbar li a.active {
         background-color: #782b0f;
         color: #fff;
     }
+
     #mobile {
         display: flex;
         color: #963512;

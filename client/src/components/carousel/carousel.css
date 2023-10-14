@@ -11,6 +11,8 @@
     white-space: nowrap;
     transition: transform 0.5s;
     box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    position: relative;
+    z-index: 1;
 }
 .carousel-buttons{
     display: flex;

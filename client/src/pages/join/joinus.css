@@ -1,0 +1,119 @@
+.joinus .banner {
+    height: 60vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.671), rgba(0, 0, 0, 0.384)), url('../../assets/join/bg-02.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.joinus .banner h1 {
+    font-size: 4rem;
+    color: #9e3b17;
+    color: #fff;
+}
+
+.joinus .content-box h2 {
+    color: #9e3b17;
+    color: #555;
+}
+
+.joinus .services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.joinus .service {
+    width: 30%;
+    margin: 1rem 0;
+    background-color: #9e3b17;
+    padding: 2rem;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.joinus .service:hover {
+    background-color: #c34b20;
+}
+
+.joinus .feature {
+    color: #fff;
+}
+
+.joinus form {
+    width: 100%;
+    margin: 2rem auto;
+    padding: 1rem;
+    color: #555;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    border-bottom: 3px solid #c34b20;
+    border-right: 7px solid #c34b20;
+}
+
+.joinus .form-control {
+    margin-top: .5rem;
+}
+
+.joinus input {
+    width: 100%;
+    height: 45px;
+    padding: 10px;
+    margin-top: .4rem;
+    border: 1px solid #ddd;
+    outline-color: #c34b20;
+    transition: all .5s ease;
+    color: #555;
+}
+
+.joinus textarea {
+    width: 100%;
+    height: 15vh;
+    padding: 10px;
+    margin-top: .4rem;
+    resize: none;
+    border: 1px solid #ddd;
+    outline-color: #c34b20;
+    transition: all .5s ease;
+    color: #555;
+
+}
+
+.joinus .form-container {
+    height: 80vh;
+    overflow: hidden;
+}
+
+@media screen and (max-width:1024px) {
+    .joinus .banner h1 {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .joinus .service {
+        width: 45%;
+    }
+
+    .joinus .feature {
+        font-size: 18px;
+
+    }
+
+    .joinus .form-container {
+        height: auto;
+    }
+
+    .joinus textarea {
+        width: 100%;
+        height: 15vh;
+        padding: 10px;
+        margin-top: .4rem;
+        resize: none;
+    }
+}

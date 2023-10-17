@@ -1,6 +1,8 @@
 import { habits_data } from '../../data/habits_data'
 import './habits.css'
 const Habits = () => {
+    document.title = "Habits | The Billionaire "
+
     return (
         <div className='habits'>
 

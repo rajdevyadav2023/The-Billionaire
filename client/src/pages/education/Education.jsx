@@ -2,6 +2,7 @@ import { education_data } from '../../data/education_data';
 import './education.css';
 
 const Education = () => {
+    document.title = "Education | The Billionaire "
     return (
         <div className='education'>
             <div className="banner">

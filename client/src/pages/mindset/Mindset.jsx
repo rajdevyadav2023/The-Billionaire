@@ -2,6 +2,8 @@ import { mindset_data } from '../../data/mindset_data';
 import './mindset.css';
 
 const Mindset = () => {
+    document.title = "Mindset | The Billionaire "
+
     return (
         <div className='mindset'>
             <div className="banner">

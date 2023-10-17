@@ -2,6 +2,8 @@ import { career_data } from '../../data/career_data'
 import './career.css'
 
 const Career = () => {
+    document.title = "Career | The Billionaire "
+
     return (
         <div className='career'>
             <div className="banner">

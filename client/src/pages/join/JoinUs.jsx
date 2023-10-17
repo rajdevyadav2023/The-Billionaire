@@ -2,6 +2,8 @@ import { join_data } from '../../data/join_data'
 import './joinus.css'
 import img2 from '../../assets/join/img-02.jpg'
 const JoinUs = () => {
+  document.title = "Join Us | The Billionaire "
+
   return (
     <div className='joinus'>
       <div className="banner">

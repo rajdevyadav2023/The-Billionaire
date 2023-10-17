@@ -2,6 +2,8 @@ import { business_data } from '../../data/business_data'
 import './business.css'
 
 const Business = () => {
+    document.title = "Business | The Billionaire "
+
     return (
         <div className='business'>
             <div className="banner">

@@ -2,6 +2,8 @@ import { lifestyle_data } from '../../data/lifestyle_data';
 import './lifestyle.css';
 
 const Lifestyle = () => {
+    document.title = "Lifestyle | The Billionaire "
+
     return (
         <div className='lifestyle'>
             <div className="banner">

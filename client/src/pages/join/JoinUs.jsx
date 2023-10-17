@@ -29,7 +29,8 @@ const JoinUs = () => {
 
       <div className="content-wrapper form-container" >
         <div className="content-box">
-          <form action="https://formspree.io/f/mbjvqpgv" method='POST'>
+          {/* kindly create an account on formspree and use your own key to recieve data from form. */}
+          <form action="https://formspree.io/f/your_key" method='POST'>
 
             <h2>Contact Us Form</h2>
 

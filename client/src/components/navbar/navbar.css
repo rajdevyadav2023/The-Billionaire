@@ -9,6 +9,7 @@ nav {
     position: sticky;
     top: 0;
     z-index: 9999;
+    width: 100%;
 }
 
 .logo a {
@@ -85,15 +86,16 @@ nav {
         background-color: #9e3b17;
         position: absolute;
         top: 96px;
-        right: -100%;
-        width: 100%;
+        right: 0;
+        width: 0;
         height: 100vh;
-        padding: 40px 10px 0 10px;
         transition: all .5s ease;
     }
 
     #navbar.active-navbar {
-        right: 0;
+        width: 100%;
+        padding: 40px 10px 0 10px;
+
     }
 
     #navbar li {

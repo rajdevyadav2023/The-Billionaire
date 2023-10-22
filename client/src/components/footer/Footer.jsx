@@ -23,8 +23,8 @@ const Footer = () => {
             <div className="footer-content">
                 <ul>
                     <li> <i className="fa-solid fa-phone"></i> +91 012 345 6789</li>
-                    <li> <i className="fa-solid fa-envelope"></i> billionaire@customercare.com</li>
-                    <li> <i className="fa-solid fa-location-dot"></i> Sector 18 Noida, Uttar Pradesh, India</li>
+                    <li> <i className="fa-solid fa-envelope"></i> yadav@help.com</li>
+                    <li> <i className="fa-solid fa-location-dot"></i> Noida, Uttar Pradesh, India</li>
                 </ul>
             </div>
         </div>
